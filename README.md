@@ -1,5 +1,7 @@
 # Ziad Alajwoa — Full-Stack Developer Portfolio
 
+[View the live portfolio](https://ziyad543212-dev.github.io/portfolio-profissional/)
+
 A React and TypeScript portfolio featuring Panel Cut Optimizer and the Al Madinah Hajj & Umrah Management System. The project cards include screenshots, technical highlights, and source links. The Al Madinah screenshot uses sample data.
 
 ## Run locally
