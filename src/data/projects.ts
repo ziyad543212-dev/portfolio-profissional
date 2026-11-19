@@ -8,7 +8,6 @@ interface Project {
   summary: string;
   highlights: string[];
   technologies: string[];
-  github: string;
   image: string;
   imageAlt: string;
   imageCaption: string;
@@ -26,7 +25,6 @@ export const projects: Project[] = [
       'Projects autosave offline in IndexedDB, with JSON backups and print-ready diagrams.',
     ],
     technologies: ['React', 'Web Workers', 'Dexie', 'Electron', 'Capacitor'],
-    github: 'https://github.com/ziyad543212-dev/cutting',
     image: cuttingImage,
     imageAlt: 'A cutting diagram with color-coded panels, dimensions, a reusable offcut, and a part key.',
     imageCaption: 'Cutting plan for a sample box',
@@ -42,7 +40,6 @@ export const projects: Project[] = [
       'An Express API and PostgreSQL database serve the web client and the Electron desktop app.',
     ],
     technologies: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'Electron', 'OCR'],
-    github: 'https://github.com/ziyad543212-dev/mangment-almadinah',
     image: almadinahImage,
     imageAlt: 'Arabic dashboard showing trip, pilgrim, and payment summaries with sample data.',
     imageCaption: 'Dashboard with sample data',

@@ -2,7 +2,7 @@
 
 [View the live portfolio](https://ziyad543212-dev.github.io/portfolio-profissional/)
 
-A React and TypeScript portfolio featuring Panel Cut Optimizer and the Al Madinah Hajj & Umrah Management System. The project cards include screenshots, technical highlights, and source links. The Al Madinah screenshot uses sample data.
+A React and TypeScript portfolio featuring Panel Cut Optimizer and the Al Madinah Hajj & Umrah Management System. The project cards include screenshots and technical highlights. The Al Madinah screenshot uses sample data.
 
 ## Run locally
 
@@ -29,6 +29,6 @@ You can also run the workflow manually from the **Actions** tab.
 
 ## Update portfolio content
 
-- Project descriptions, technologies, images, and source links live in `src/data/projects.ts`.
+- Project descriptions, technologies, and images live in `src/data/projects.ts`.
 - The name, contact email, GitHub profile, and navigation labels live in `src/data/profile.ts`.
 - The site description and social titles live in `index.html`.

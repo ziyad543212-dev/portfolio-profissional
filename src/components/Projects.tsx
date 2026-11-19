@@ -1,4 +1,4 @@
-import { ArrowUpRight, ChevronDown, Github, Maximize2 } from 'lucide-react';
+import { ChevronDown, Maximize2 } from 'lucide-react';
 import { projects } from '../data/projects';
 
 export default function Projects() {
@@ -40,16 +40,6 @@ export default function Projects() {
                     {project.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}
                   </ul>
                 </details>
-
-                <a
-                  className="project-source"
-                  href={project.github}
-                  aria-label={'View source for ' + project.name + ' on GitHub'}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Github size={17} aria-hidden="true" /> View source <ArrowUpRight size={15} aria-hidden="true" />
-                </a>
               </div>
             </article>
           ))}

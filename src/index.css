@@ -408,23 +408,6 @@ main:focus {
   list-style: disc;
 }
 
-.project-source {
-  display: inline-flex;
-  min-height: 2.7rem;
-  align-items: center;
-  gap: 0.45rem;
-  margin-top: 0.55rem;
-  color: var(--accent);
-  font-size: 0.87rem;
-  font-weight: 700;
-}
-
-.project-source:hover {
-  color: var(--accent-strong);
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
-}
-
 .section-split {
   display: grid;
   grid-template-columns: minmax(12rem, 0.75fr) minmax(0, 1.4fr);
